@@ -1,0 +1,80 @@
+/*Author: Ed Dam*/
+
+@import url(http://fonts.googleapis.com/css?family=Parisienne|Poiret+One);
+
+body {
+  background-color: black;
+  color:            white;
+  text-align:       center;
+  margin:           0px;
+  padding:          0px;
+}
+
+.ed-header {
+  font:    100px 'Parisienne', cursive;
+  padding: 10px 0px 0px 0px;
+}
+
+.ed-footer {
+  font:    20px 'Parisienne', cursive;
+  padding: 2px 0px 0px 0px;
+}
+
+a {
+  border: 0;
+  text-decoration: none;
+}
+
+div {
+  font: 40px 'Poiret One', cursive;
+}
+
+.ed-box {
+  height: 500px;
+}
+
+.ed-profile {
+  width: 210px;
+}
+
+.ed-navbar {
+  width: 250px;
+  font:  20px 'Poiret One', cursive;
+}
+
+.ed-projects {
+  width: 250px;
+}
+
+.ed-pebble {
+  width: 240px;
+}
+
+img {
+  width:   100%;
+  opacity: 0.90;
+}
+
+.ed-relative {
+  position: relative;
+}
+
+.ed-logo {
+  width: 70%;
+}
+
+.ed-watchface {
+  opacity:  1.00;
+  position: absolute;
+  width:    124px;
+  top:      77px;
+  left:     58px;
+}
+
+b {
+  font: bold 28px 'Poiret One', cursive;
+}
+
+p {
+  font: 25px 'Poiret One', cursive;
+}
