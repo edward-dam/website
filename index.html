@@ -16,6 +16,7 @@
 <body>
 
 <script src="scripts/social.js"></script>
+<script src="scripts/watchface.js"></script>
 
 <header class="w3-container w3-white ed-header">
   Edward Dam
@@ -75,12 +76,12 @@
           edwarddam.com</p>
         </div>
       </a>
-      <div class="w3-panel w3-card-8 w3-leftbar w3-lime w3-border-green w3-left-align w3-round-xlarge w3-hover-opacity ed-projects">
+      <div class="w3-panel w3-card-8 w3-leftbar w3-lime w3-border-green w3-left-align w3-round-xlarge ed-projects">
         <p><b>Pebble</b><br />
-        <a href="https://github.com/edwarddam/pebbledigital" target="_blank">
+        <a href="https://github.com/edwarddam/pebbledigital" target="_blank" class="w3-hover-opacity">
           Digital Face<br />
         </a>
-        <a href="https://github.com/edwarddam/pebbleanalogue" target="_blank">
+        <a href="https://github.com/edwarddam/pebbleanalogue" target="_blank" class="w3-hover-opacity">
           Analogue Face</p>
         </a>
       </div>
@@ -90,10 +91,15 @@
   <div class="w3-half w3-container w3-padding-16 w3-teal w3-display-container ed-box">
     Pebble
     <div class="w3-container w3-display-middle w3-margin-top ed-pebble">
-      <img src="images/pebble.png" alt="Pebble" class="w3-hover-opacity ed-relative" />
-      <a href="https://github.com/edwarddam/pebbledigital" target="_blank">
-        <img src="images/pebbledigital.png" alt="Watchface" class="ed-watchface" />
+      <img src="images/pebble.png" alt="Pebble" class="ed-relative" />
+      <a href="https://github.com/edwarddam/pebbleanalogue" target="_blank">
+        <img src="images/pebbleanalogue.png" alt="Watchface" class="ed-watchface ed-slide" />
       </a>
+      <a href="https://github.com/edwarddam/pebbledigital" target="_blank">
+        <img src="images/pebbledigital.png" alt="Watchface" class="ed-watchface ed-slide" />
+      </a>
+      <a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+      <a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
     </div>
   </div>
 
