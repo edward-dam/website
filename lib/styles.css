@@ -42,22 +42,12 @@ div {
   font:  20px 'Poiret One', cursive;
 }
 
-.ed-fitbit {
-  width: 210px;
-}
-
 .ed-pebble {
   width: 240px;
 }
 
 .ed-sourcecode {
   width: 230px;
-}
-
-.ed-references {
-  width: 260px;
-  font: 25px 'Poiret One', cursive;
-  text-align: left;
 }
 
 img {
@@ -71,18 +61,6 @@ img {
 
 .ed-logo {
   width: 70%;
-}
-
-.ed-icon {
-  width: 25px;
-}
-
-.ed-fitbitface {
-  opacity:  1.00;
-  position: absolute;
-  width:    140px;
-  top:      110px;
-  left:     35px;
 }
 
 .ed-pebbleface {
