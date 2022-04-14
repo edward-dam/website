@@ -1,4 +1,4 @@
 # website
-http://www.edwarddam.com/
+https://www.edwarddam.com/
 
 <img src="/images/john.png" width="250">
